@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 15px;
+    font-family:'OpenSans';
+}    
+li{
+    display: block;
+}
+   
+    #header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  video{
+      opacity: 0.4;
+  }
+  .menu__point{
+      color: white;
+      float: left;
+      margin-right : 30px
+  }
+  h1{
+      color: white;
+      text-align: center;
+      top: 32%;
+      position: relative;
+      font-size: 50px;
+      font-family:'Montserrat' ;
+  }
+  h1 span{
+    font-size:30px ;
+    line-height: 0px;
+    margin-top: 10px;
+  }
