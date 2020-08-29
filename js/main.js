@@ -1,16 +1,25 @@
-$(document).ready(function() {
-
-	$("#form").submit(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $(this).serialize()
-		}).done(function() {
-			$(this).find("input").val("");
-			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-			$("#form").trigger("reset");
+$(function(){
+    $(document).ready(function(){
+		$("#header").on("click","a", function (event) {
+			event.preventDefault();
+			var id  = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({scrollTop: top}, 1500);
 		});
-		return false;
 	});
-	
 });
+
+var menuBtn = document.querySelector('.menu-btn');
+var nav = document.querySelector('nav');
+var lineOne = document.querySelector('nav .menu-btn .line--1');
+var lineTwo = document.querySelector('nav .menu-btn .line--2');
+var lineThree = document.querySelector('nav .menu-btn .line--3');
+var link = document.querySelector('nav .nav-links');
+menuBtn.addEventListener('click', () => {
+    nav.classList.toggle('nav-open');
+    lineOne.classList.toggle('line-cross');
+    lineTwo.classList.toggle('line-fade-out');
+    lineThree.classList.toggle('line-cross');
+    link.classList.toggle('fade-in');
+})
+
