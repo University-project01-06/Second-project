@@ -189,10 +189,24 @@ nav .nav-links .link:hover {
     color: red
 }
 
-
+#aboutmagic {
+    background: url(../img/wrapper.jpg) no-repeat center top / cover;
+}
 .aboutmagic__heading{
     font-size: 30px;
     margin: 100px 0px 100px 0px;
     font-family: 'Montserrat';
+    color: white;
+}
+.about-wrapper {
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    position: relative;
+    top: 5px;
 }
 
