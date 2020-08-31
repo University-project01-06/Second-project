@@ -358,6 +358,9 @@ nav .nav-links .link:hover {
     margin-top: 9px;
     margin-left: 150px;
   }
+  .input__second:focus{
+      border-color: red;
+  }
   .button__second {
     width: 292px;
     height: 53px;
