@@ -364,7 +364,7 @@ nav .nav-links .link:hover {
   /*Footer*/
   #footer{
       background-color: black;
-        height: 110px;
+        height: 150px;
     }
     .footer-header{
         font-family: 'Open Sans';
@@ -385,6 +385,9 @@ nav .nav-links .link:hover {
      .fa-arrow-circle-up:hover{
          color: white;
          transition:  1s ease;
+     }
+     .produced{
+         color: white;
      }
     
 
