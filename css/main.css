@@ -56,7 +56,7 @@ a{
   .down__angle{
     width: 46px;
     height: 46px;
-    border: 1px dashed #ffffff;
+    border: 4px solid red;
     display: block;
     border-radius: 50%;
     position: absolute;
@@ -66,7 +66,7 @@ a{
 }
 .fa-chevron-down {
     color: white;
-    margin: 15px 13px 0px 13px;
+    margin: 14px 13px 0px 10px;
 }
 .paragraph-firstsection{
     font-size: 30px;
@@ -188,10 +188,13 @@ nav .nav-links .link {
 nav .nav-links .link:hover {
     color: red
 }
+
+
+
 /* Section 1 */
 #aboutmagic {
-   background: url(../img/cards2.jpg) no-repeat right bottom / cover;
-   padding-bottom: 100px;
+   background: url(../img/cards2.jpg) no-repeat center top / cover;
+   
 }
 .aboutmagic__heading{
     font-size: 30px;
@@ -214,11 +217,10 @@ nav .nav-links .link:hover {
   margin-left: 550px;
 }
   .block {
-      position: relative;
-      top: 30px;
+      margin-top: 100px;
       width: 100%;
       height: 500px;
-
+    margin-bottom: 100px;
       box-shadow: 0 0 29px rgba(14, 14, 14, 0.4);
       border-radius: 5px;
       
@@ -229,9 +231,16 @@ nav .nav-links .link:hover {
   }
   .block_second {
     background: url(../img/king.jpg) no-repeat center / cover;
+    margin-top: 50px;
   }
   .block_third {
     background: url(../img/queen.jpg) no-repeat center / cover;
+  }
+  .underline-second_first{
+      margin-left: -401px;
+  }
+  .personality__heading_first{
+    margin:100px 0px 100px 872px;
   }
 
 
@@ -248,7 +257,6 @@ nav .nav-links .link:hover {
 }
 .personality__heading {
     font-size: 30px;
-    margin: 100px 0px 100px 0px;
     font-family: 'Montserrat';
     color: white;
     letter-spacing: 10px;
@@ -256,9 +264,35 @@ nav .nav-links .link:hover {
 .underline-second::after {
     content: '';
     display: block;
-    background-color: rgb(223, 185, 80);
+    background-color: red;
     width: 150px;
     height: 3px;
     margin-top: 10px;
     margin-left: 472px;
+  }
+
+
+  /*Третья секция*/
+  .personality__heading_second{
+      color: black;
+      margin:100px 0px 100px 0px;
+  }
+  .underline-second_third::after {
+    margin-left: 30px;
+  }
+  .my-works__first{
+      height: 348px;
+      width:100%;
+      opacity: 1;
+  }
+  .my-works__first_second{
+      margin-top: 100px;
+  }
+
+
+
+  /*Четвертая*/
+  .personality__heading_third{
+      color: black;
+      margin:100px 0px 100px 872px;
   }
