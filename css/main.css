@@ -229,6 +229,21 @@ nav .nav-links .link:hover {
       background: url(../img/ace.jpg) no-repeat center / cover;
       
   }
+  .overlay {
+      background: rgba(0,0,0,0.8);
+      height: 500px;
+  }
+  .overlay__paragraph {
+      color: beige;
+      font-size: 20px;
+      font-family: 'Montserrat';
+      width: 80%;
+      margin: 172px 0px 0px 40px ;
+      text-align: center;
+  }
+  .overlay__paragraph_third {
+      margin-top: 130px;
+  }
   .block_second {
     background: url(../img/king.jpg) no-repeat center / cover;
     margin-top: 50px;
@@ -252,7 +267,10 @@ nav .nav-links .link:hover {
     
 }
 .first-photo {
-    width: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 200px;
     
 }
 .personality__heading {
@@ -269,6 +287,16 @@ nav .nav-links .link:hover {
     height: 3px;
     margin-top: 10px;
     margin-left: 472px;
+  }
+  .name {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 120px;
+  }
+  .paragraph-thirdsection {
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
   }
 
 
@@ -388,6 +416,9 @@ nav .nav-links .link:hover {
      }
      .produced{
          color: white;
+     }
+     .developers {
+         color: red;
      }
     
 
