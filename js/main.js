@@ -78,3 +78,44 @@ menuBtn.addEventListener('click', () => {
     link.classList.toggle('fade-in');
 })
 
+var br = document.createElement("br")
+let  arrLang = {
+    'en': {
+      'about Magic': 'About Magic',
+      'personality': 'Personality',
+      'my works': 'My works',
+      'contacts': 'Contacts',
+      "illusionist":"Illusionist (magician) - an artist demonstrating tricks based on certain physical and psychological phenomena",
+      "qualities" : "Personal qualities: - Power ${br} - Agility\n - Intelligence\n - Savvy<br>\n At the same time, the secret of the 'miracles' seen by the audience must certainly remain unsolved",
+        "art":"Magic is the art of getting people excited about effects that are actually not possible.  To make you feel like magic is real.  Each individual decides for himself what magic is exactly.  For some, it's a trick for others, the family ... what is magic to me?  I still don't know that today.",
+        "book":"Book me for your event!",
+        "book second": "Book now",
+        "right":"2020 / All rights reserved ",
+        "policy":"Privacy Policy",
+        "produce":"This site was produced by"
+    },
+    'de': {
+        'about Magic': 'Über Magie',
+        'personality': 'Persönlichkeit',
+        'my works': 'Meine Arbeiten',
+        'contacts': 'Kontakte',
+        "illusionist":"Illusionist (Zauberer) - ein Künstler, der Tricks demonstriert, die auf bestimmten physischen und psychischen Phänomenen basieren",
+        "qualities" : "Persönliche Qualitäten:/n - Leistung/n - Beweglichkeit/n - Intelligenz/n - Kapieren/n Gleichzeitig muss das Geheimnis der 'Wunder', die das Publikum sieht, sicherlich ungelöst bleiben",
+        "book":"Buchen Sie mich für Ihre Veranstaltung!",
+        "art":"Zauberei ist eine Kunst, Menschen von Effekten zu begeistern, die eigentlich nicht möglich sind. Das Gefühl zu geben, das Magie echt ist. Was Magie genau ist, entscheidet jeder einzelne für sich. Für manche ist es ein Zubertrick für andere, die Familie... was Magie für mich ist? Das weiss ich bis heute noch nicht.",
+        "book second": "Jetzt buchen",
+        "message":"Nachricht",
+        "right":"2020 / Alle Rechte vorbehalten ",
+        "policy":"Datenschutz-Bestimmungen",
+        "produce":"Diese Seite wurde erstellt von"
+    }
+  }
+  $(function() {
+    $('.translate').click(function() {
+      var lang = $(this).attr('id');
+
+      $('.lang').each(function(index, item) {
+        $(this).text(arrLang[lang][$(this).attr('key')]);
+      });
+    });
+  });
