@@ -12,6 +12,27 @@ a{
     outline: none;
 }
    /* HEADER*/
+   .translate {
+       display: inline-flex;
+       margin-top: 20px;
+   }
+   .slash {
+       font-size: 15px;
+       font-weight: 900;
+       color: black;
+   }
+   .button_de_lang {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+   }
+   .button_de_lang:hover {
+    text-decoration: none;
+    color: red;
+    transition: all 0.5s ease;
+   }
     #header {
     position: relative;
     background-color: black;
