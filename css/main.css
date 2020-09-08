@@ -559,6 +559,31 @@ nav .nav-links .link:hover {
 .paragraph-thirdsection {
     margin-bottom: 100px;
 }
+.personality__heading_second {
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+.personality__heading_third {
+    margin: 100px 0 100px 0px;
+    text-align: center;
+}
+.book {
+    text-align: center;
+    margin-left: 15%;
+}
+.fa-instagram {
+    margin-right: 40%;
+}
+.fa-at {
+    margin-right: 40%;
+}
+.fa-mobile-alt {
+    margin-right: 40%;
+}
+.phone-paragraph {
+    margin-left: 11%;
+}
+
 }
 
      
