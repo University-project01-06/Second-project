@@ -560,7 +560,7 @@ nav .nav-links .link:hover {
     margin-bottom: 100px;
 }
 .personality__heading_second {
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px 50px 0px;
     text-align: center;
 }
 .personality__heading_third {
@@ -583,7 +583,17 @@ nav .nav-links .link:hover {
 .phone-paragraph {
     margin-left: 11%;
 }
-
+.input__second {
+   margin-left: 0;
+   width: 100%;
+}
+.button__second {
+    margin: 23px 0px 100px 0px;
+}
+.produced {
+    background-color: black;
+    height: 50px;
+}
 }
 
      
