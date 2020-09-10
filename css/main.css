@@ -262,7 +262,7 @@ nav .nav-links .link:hover {
       font-size: 20px;
       font-family: 'Montserrat';
       width: 80%;
-      margin: 172px 0px 0px 40px ;
+      margin: 130px 0px 0px 40px ;
       text-align: center;
   }
   .first__paragraph_third {
@@ -518,7 +518,26 @@ nav .nav-links .link:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  
+    .underline-first {
+        display: none;
+    }
+    .underline-second {
+        display: none;
+    }
+    .name {
+        margin-top: -35px;
+    }
+    .paragraph-thirdsection {
+        margin-bottom: 100px;
+    }
+    .personality__heading_first {
+        width: 50%;
+        margin: 100px;
+    }
+    .block_first {
+        width: 100%;
+        height: 50%;    
+    }
 }
 @media screen and (max-width: 576px) {
   .underline-first {
@@ -547,7 +566,7 @@ nav .nav-links .link:hover {
   }
   .block {
       width: 100%;
-      height: 83%;
+      height: 90%;
   }
   .block_second {
       margin-top: 0px;
@@ -561,7 +580,7 @@ nav .nav-links .link:hover {
     height: 59%;
 }
 .first__paragraph {
-    margin-top: 114px;
+    margin-top: 80px;
 }
 .personality__heading_first {
     margin: 100px 0px 0px 0px;
