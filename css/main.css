@@ -527,6 +527,20 @@ nav .nav-links .link:hover {
   .underline-second {
       display: none;
   }
+   .menu-wrapper {
+       margin-left: -43%;
+   }
+    .paragraph-firstsection {
+        margin-left: 0%;
+        left: 0%;
+        top: 30%;
+        margin-top: 0px;
+    }
+    .paragraph-firstsection__span {
+        line-height: 80px;
+    }
+
+
   .aboutmagic__heading {
       width: 100%;
       margin: 50px 0px 0px 0px;
