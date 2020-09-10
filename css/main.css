@@ -470,12 +470,17 @@ nav .nav-links .link:hover {
 
 /* Responsive*/
 @media screen and (max-width: 1200px) {
-    
+    .menu-wrapper {
+        margin-left: -100px;
+    }
 }
 @media screen and (max-width: 992px) {
   .underline-first {
       margin-left: 50%;
   }
+  .menu-wrapper {
+    margin-left: -100px;
+}
   .block {
       width: 110%;
   }
@@ -524,6 +529,9 @@ nav .nav-links .link:hover {
     .underline-second {
         display: none;
     }
+    .menu-wrapper {
+        margin-left: -100px;
+    }
     .name {
         margin-top: -35px;
     }
@@ -547,7 +555,7 @@ nav .nav-links .link:hover {
       display: none;
   }
    .menu-wrapper {
-       margin-left: -43%;
+       margin-left: -133px;
    }
     .paragraph-firstsection {
         margin-left: 0%;
@@ -558,8 +566,6 @@ nav .nav-links .link:hover {
     .paragraph-firstsection__span {
         line-height: 80px;
     }
-
-
   .aboutmagic__heading {
       width: 100%;
       margin: 50px 0px 0px 0px;
