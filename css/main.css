@@ -473,11 +473,20 @@ nav .nav-links .link:hover {
     .menu-wrapper {
         margin-left: -100px;
     }
+    .paragraph-firstsection {
+        margin-left: -315px;
+    }
+    .down__angel {
+        margin-left: 0px;
+    }
 }
 @media screen and (max-width: 992px) {
   .underline-first {
       margin-left: 50%;
   }
+  .paragraph-firstsection {
+    margin-left: -315px;
+}
   .menu-wrapper {
     margin-left: -100px;
 }
@@ -494,13 +503,15 @@ nav .nav-links .link:hover {
   }
   .personality__heading_first {
       width: 100%;
-      margin: 100px ;
+      margin: 100px;
   }
   .underline-second_first {
       margin-left: 100%;
   }
   .first-photo {
-    width: 100%;
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 12%;
   }
   .name {
       margin-top: 153px;
@@ -509,7 +520,7 @@ nav .nav-links .link:hover {
       font-size: 22px;
   }
   .personality__heading_third {
-    margin: 100px 0 100px -50px;
+    margin: 100px 0 100px 0px;
 
   }
   .underline-second_four {
@@ -521,6 +532,7 @@ nav .nav-links .link:hover {
   .button__second {
     width: 100%;
   }
+  
 }
 @media screen and (max-width: 768px) {
     .underline-first {
@@ -528,6 +540,9 @@ nav .nav-links .link:hover {
     }
     .underline-second {
         display: none;
+    }
+    .paragraph-firstsection {
+        margin-left: -300px;
     }
     .menu-wrapper {
         margin-left: -100px;
@@ -539,12 +554,24 @@ nav .nav-links .link:hover {
         margin-bottom: 100px;
     }
     .personality__heading_first {
-        width: 50%;
+        width: 70%;
         margin: 100px;
     }
+    .block {
+        margin-left: 12%;
+    }
     .block_first {
-        width: 100%;
-        height: 50%;    
+        width: 80%;
+        height: 82%;
+    }
+    .block_second {
+        width: 80%;
+        height: 71%;
+        margin-top: 102px;
+    }
+    .block_third {
+        width: 80%;
+        height: 71%;
     }
 }
 @media screen and (max-width: 576px) {
