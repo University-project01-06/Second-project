@@ -481,9 +481,12 @@ nav .nav-links .link:hover {
     }
 }
 @media screen and (max-width: 992px) {
-  .underline-first {
-      margin-left: 50%;
-  }
+    .underline-first {
+        display: none;
+    }
+    .underline-second {
+        display: none;
+    }
   .paragraph-firstsection {
     margin-left: -315px;
 }
@@ -514,10 +517,11 @@ nav .nav-links .link:hover {
     margin-left: 12%;
   }
   .name {
-      margin-top: 153px;
+      margin-top: 30px;
+      font-size: 25px;
   }
   .paragraph-thirdsection {
-      font-size: 22px;
+      font-size: 19px;
   }
   .personality__heading_third {
     margin: 100px 0 100px 0px;
@@ -532,6 +536,22 @@ nav .nav-links .link:hover {
   .button__second {
     width: 100%;
   }
+  .book {
+      text-align: center;
+  }
+  .phone-paragraph {
+      text-align: left;
+  }
+  .input__second {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .button__second {
+      margin-left: 0px;
+  }
+  .phone-paragraph {
+    text-align: center;
+}
   
 }
 @media screen and (max-width: 768px) {
@@ -541,6 +561,13 @@ nav .nav-links .link:hover {
     .underline-second {
         display: none;
     }
+    .aboutmagic__heading {
+        font-size: 40px;
+        margin: 45px 0px 0px 0px;
+        font-family: 'Montserrat';
+        color: black;
+        letter-spacing: 10px;
+    }
     .paragraph-firstsection {
         margin-left: -300px;
     }
@@ -549,9 +576,18 @@ nav .nav-links .link:hover {
     }
     .name {
         margin-top: -35px;
+        margin-left: 10%;
     }
     .paragraph-thirdsection {
         margin-bottom: 100px;
+        margin-left: 10%;
+    }
+    .book {
+        margin: 0px 0px 40px 0px;
+        text-align: center;
+    }
+    .my-works__first {
+        margin-top: 50px;
     }
     .personality__heading_first {
         width: 70%;
@@ -562,17 +598,38 @@ nav .nav-links .link:hover {
     }
     .block_first {
         width: 80%;
-        height: 82%;
+        height: 74%;
     }
     .block_second {
         width: 80%;
-        height: 71%;
+        height: 74%;
         margin-top: 102px;
     }
     .block_third {
         width: 80%;
-        height: 71%;
+        height: 74%;
     }
+    .overlay {
+        background: rgba(0,0,0,0.8);
+        height: 574px;
+    }
+    .first__paragraph {
+        padding-top: 220px;
+    }
+    .overlay__paragraph_third {
+        padding-top: 150px;
+    }
+    .personality__heading_first {
+        margin: 100px 0px 100px 19%;
+        opacity: 0;
+    }
+    .input__second {
+        width: 100%;
+        margin-left: 0px;
+      }
+      .button__second {
+          margin-left: 0px;
+      }
 }
 
 @media screen and (max-width: 576px) {
@@ -737,10 +794,4 @@ nav .nav-links .link:hover {
     .fa-mobile-alt {
         margin-right: 46%;
     }
-}
-@media screen and (min-width: 450px){
-    .personality__heading_first {
-        margin: 100px 0px 0px 19%;
-        opacity: 0;
-}
 }
