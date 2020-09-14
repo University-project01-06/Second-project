@@ -442,6 +442,7 @@ nav .nav-links .link:hover {
     }
     .signs{
         margin-top: 20px;
+        display: inline-flex;
     }
     .fa-at,.fa-instagram {
         margin-left: 20px;
@@ -470,6 +471,12 @@ nav .nav-links .link:hover {
 
 /* Responsive*/
 @media screen and (max-width: 1200px) {
+    .underline-first {
+        display: none;
+    }
+    .underline-second {
+        display: none;
+    }
     .menu-wrapper {
         margin-left: -100px;
     }
@@ -478,6 +485,39 @@ nav .nav-links .link:hover {
     }
     .down__angel {
         margin-left: 0px;
+    }
+    .personality__heading_first {
+        margin: 100px 0px 100px 613px;
+        opacity: 0;
+    }
+    .personality__heading_third {
+        color: white;
+        margin: 100px 0px 100px 613px;
+        opacity: 0;
+    }
+    .input__second {
+        width: 65%;
+        margin-left: 0px;
+    }
+    .button__second {
+        margin: 23px 0px 100px 0px;
+    }
+    .overlay__paragraph_third {
+        margin-top: 33px;
+    }
+    .signs {
+        display: inline-flex;
+    }
+    .block {
+        width: 100%;
+        height: 68%;
+    }
+    .overlay {
+        background: rgba(0,0,0,0.8);
+        height: 410px;
+    }
+    .first__paragraph {
+        font-size: 19px;
     }
 }
 @media screen and (max-width: 992px) {
