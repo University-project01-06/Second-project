@@ -737,6 +737,8 @@ nav .nav-links .link:hover {
 }
 .block_second {
     background: none;
+    margin-top: 0px;
+    height: 91%;
     border-radius: 25px;
 }
 .block_third {
@@ -746,7 +748,6 @@ nav .nav-links .link:hover {
     height: 100%;
 }
 .overlay {
-    background-color: #595b56;
     border: 3px solid red;
     border-radius: 25px;
 }
@@ -754,10 +755,6 @@ nav .nav-links .link:hover {
     color: white;
     padding-top: 100px;
 }
-  .block_second {
-      margin-top: 0px;
-      height: 91%;
-  }
   .overlay {
       height: 100%;
   }
