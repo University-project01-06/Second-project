@@ -685,7 +685,13 @@ nav .nav-links .link:hover {
 }
 
 @media screen and (max-width: 576px) {
-  .underline-first {
+    .translate-wrapper{
+        margin-left: 84px;
+    }
+    nav .nav-links .link {
+        margin: 20px 0px 0px 78px;
+    }
+    .underline-first {
       display: none;
   }
   .underline-second {
