@@ -12,3 +12,5 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"]) 
     // Переводим массив в JSON
     echo json_encode($result); 
 }
+
+

@@ -9,3 +9,7 @@ $message = "Name: $name \nEmail: $email \nMessage: $message";
 
 $pagetitle = "New application from the site \"$sitename\"";
 mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $email");
+
+
+
+
