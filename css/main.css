@@ -120,13 +120,14 @@ nav {
 nav.nav-open {
     transform: translateX(0px);
     border-radius: 0% 0% 0% 0%;
-	 background: rgba(255, 255, 255, 0.6);
+     background: rgb(204, 14, 14);
+     z-index: 1;
 }
 
 nav .menu-btn {
     position: absolute;
     top: 10%;
-    right: 5%;
+    right: 8%;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -199,7 +200,7 @@ nav .nav-links .link {
     margin: 20px 0;
     text-decoration: none;
     font-family: sans-serif;
-    color: rgba(0,0,0,0.9);
+    color: white;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -549,7 +550,7 @@ nav .nav-links .link:hover {
   }
   .personality__heading_first {
       width: 100%;
-      margin: 100px;
+      margin: 100px 20px;
   }
   .underline-second_first {
       margin-left: 100%;
@@ -703,9 +704,9 @@ nav .nav-links .link:hover {
   .down__angel {
     margin-left: -5%;
 }
-   .menu-wrapper {
-       margin-left: -133px;
-   }
+.menu-wrapper {
+    margin-left: -128px;
+}
    .my-works__first_second{
        margin-top: 0px;
    }
@@ -829,15 +830,30 @@ nav .nav-links .link:hover {
   .down__angel {
     margin-left: -5%;
 }
+.menu-btn {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    padding: 0;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+.line.line--1.line-cross {
+    width: 20px;
+}
+.line.line--3.line-cross {
+    width: 20px;
+}
 }
 @media screen and (min-width: 400px) {
     .fa-instagram {
-        margin-right: 45%;
+        margin-right: 47%;
     }
     .fa-at {
-        margin-right: 44%;
+        margin-right: 46%;
     }
     .fa-mobile-alt {
-        margin-right: 46%;
+        margin-right: 47%;
     }
 }
